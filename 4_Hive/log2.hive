@@ -1,0 +1,7 @@
+drop table if exists table1;
+create table table1 (col1 string, col2 int)
+row format delimited fields terminated by ','
+lines terminated by '\n'
+stored as textfile tblproperties ("skip.header.line.count"="3");
+
+load data local inpath '/home/talentum/hdp/pigandhive

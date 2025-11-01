@@ -1,0 +1,23 @@
+{
+    "namespace": "AVRO", 
+    "type": "record", 
+    "name": "sampleAvro", 
+    "fields": [
+        {
+            "type": "string", 
+            "name": "name"
+        }, 
+        {
+            "type": "int", 
+            "name": "age"
+        }, 
+        {
+            "type": "string", 
+            "name": "address"
+        }, 
+        {
+            "type": "long", 
+            "name": "value"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "namespace": "training.hortonworks.com", 
+    "type": "record", 
+    "name": "email", 
+    "fields": [
+        {
+            "type": "string", 
+            "name": "sender"
+        }, 
+        {
+            "type": "string", 
+            "name": "subject"
+        }, 
+        {
+            "type": "string", 
+            "name": "date_sent"
+        }, 
+        {
+            "type": "string", 
+            "name": "content"
+        }
+    ]
+}
