@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Nov 01 14:12:53 IST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0175-82f9-3cef-000001f18c20 
+on database directory /home/talentum/metastore_db with class loader sun.misc.Launcher$AppClassLoader@7a92922 
+Loaded from file:/home/talentum/hive/lib/derby-10.10.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_272-8u272-b10-0ubuntu1~18.04-b10
+user.dir=/home/talentum
+os.name=Linux
+os.arch=amd64
+os.version=5.4.0-52-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
