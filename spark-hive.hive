@@ -1,0 +1,11 @@
+create database if not exists futurex;
+
+show databases;
+
+use futurex;
+
+drop table if exists retailcustext_large purge;
+
+create external table retailcustext_large (customerid INT, age INT, salary FLOAT,gender String,country String) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LOCATION '/user/futurexskill/retailcust/' TBLPROPERTIES ("skip.header.line.count"="1");
+
+select * from retailcustext_large limit 10;
