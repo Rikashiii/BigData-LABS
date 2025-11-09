@@ -1,0 +1,5 @@
+wordcount/WordCountCompleteShakespere$StopWordMapper.class
+wordcount/WordCountCompleteShakespere$StopWordReducer.class
+wordcount/test_java.class
+wordcount/WordCountCompleteShakespere$StopWordCombiner.class
+wordcount/WordCountCompleteShakespere.class

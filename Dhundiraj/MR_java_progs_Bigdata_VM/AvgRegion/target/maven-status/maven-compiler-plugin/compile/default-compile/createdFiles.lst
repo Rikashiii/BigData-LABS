@@ -1,0 +1,3 @@
+average/AverageRegionJob.class
+average/AverageRegionJob$AvgRegionMapper.class
+average/AverageRegionJob$AvgRegionReducer.class

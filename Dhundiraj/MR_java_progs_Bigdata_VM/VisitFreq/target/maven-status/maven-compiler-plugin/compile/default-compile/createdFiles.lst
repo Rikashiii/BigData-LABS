@@ -1,0 +1,4 @@
+freq/FreqJob$FreqMapper.class
+freq/FreqJob.class
+freq/FreqJob$FreqReducer.class
+freq/FreqJob$FreqCombiner.class
