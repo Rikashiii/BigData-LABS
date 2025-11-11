@@ -3,4 +3,7 @@
 3_ETL/whitehouse_visits/whitehouse_visits.txt filter=lfs diff=lfs merge=lfs -text
 *.deb filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+6_Spark/Pair-RDD/Par-RDD/flights.csv filter=lfs diff=lfs merge=lfs -text
+6_Spark/Pair-RDD/Pair-RDD/flights.csv filter=lfs diff=lfs merge=lfs -text
+6_Spark/Pair-RDD/Pair-RDD/Flightss.csv filter=lfs diff=lfs merge=lfs -text
 6_Spark/Pair-RDD/Pair-RDD/Flights.csv filter=lfs diff=lfs merge=lfs -text
