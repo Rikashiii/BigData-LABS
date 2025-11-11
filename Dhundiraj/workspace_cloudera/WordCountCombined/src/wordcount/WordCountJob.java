@@ -93,6 +93,8 @@ public class WordCountJob extends Configured implements Tool {
 		}
 
 	}
+	
+	/*
 
 	public static class WordCountPartitioner extends Partitioner<Text, IntWritable>{
 		public int getPartition(Text key, IntWritable value, int numReduceTasks){
@@ -103,21 +105,22 @@ public class WordCountJob extends Configured implements Tool {
 		}
 	}
 
+	*/
 	@Override
 	public int run(String[] args) throws Exception {
 		Job job = Job.getInstance(getConf(), "WordCountJob");
 		Configuration conf = job.getConfiguration();
 		job.setJarByClass(getClass());
 		
-		Path in = new Path(args[0]);
-		Path out = new Path(args[1]);
-		out.getFileSystem(conf).delete(out, true); //Code added by Amit
+		Path in = new Path("wordcount_source");
+		Path out = new Path("wordcount_result");
+		out.getFileSystem(conf).delete(out, true); 
 		FileInputFormat.setInputPaths(job, in);
 		FileOutputFormat.setOutputPath(job, out);
 		
 		job.setMapperClass(WordCountMapper.class);
 		job.setReducerClass(WordCountReducer.class);
-		job.setPartitionerClass(WordCountPartitioner.class);
+//		job.setPartitionerClass(WordCountPartitioner.class);
 //		job.setNumReduceTasks(2);
 		job.setInputFormatClass(TextInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);

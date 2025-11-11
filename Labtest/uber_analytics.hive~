@@ -1,0 +1,24 @@
+
+CREATE TABLE uber_analytics (
+    ride_id STRING,
+    date DATE,
+    pickup_location STRING,
+    drop_location STRING,
+    distance_km DOUBLE,
+    fare_amount DOUBLE,
+    payment_type STRING,
+    vehicle_type STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
+
+LOAD DATA LOCAL INPATH '/home/cloudera/Labtest/uber_rides.csv' INTO TABLE uber_analytics;
+
+SELECT pickup_location, COUNT(*) AS total_rides
+FROM uber_analytics
+GROUP BY pickup_location
+ORDER BY total_rides DESC
+LIMIT 3;
+
+

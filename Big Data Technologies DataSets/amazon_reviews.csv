@@ -1,0 +1,6 @@
+product_id,product_category,review_rating,review_text,review_date,verified_purchase,price
+P001,Electronics,4.5,Great product and value,2024-01-05,Yes,599.99
+P002,Books,4.0,Informative book,2024-02-12,Yes,299.99
+P003,Clothing,3.5,Good quality shirt,2024-03-09,No,49.99
+P001,Electronics,5.0,Excellent performance,2024-04-18,Yes,699.99
+P004,Books,4.2,Very interesting read,2024-05-01,Yes,349.99

@@ -1,0 +1,6 @@
+ride_id,date,pickup_location,drop_location,distance_km,fare_amount,payment_type,vehicle_type
+R001,2024-01-10,Downtown,Suburb,12.3,320.5,Cash,Sedan
+R002,2024-01-11,Airport,CityCenter,8.5,250.0,Card,Hatchback
+R003,2024-01-12,Uptown,Downtown,15.0,410.75,Card,Sedan
+R004,2024-01-13,Airport,Suburb,22.1,590.0,UPI,SUV
+R005,2024-01-14,Downtown,Uptown,9.8,270.25,Cash,Sedan
